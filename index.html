@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sarthak Patel - Information Technology Student & Aspiring Software Engineer. Portfolio showcasing skills, projects, and education." />
+  <meta name="keywords" content="Sarthak Patel, Information Technology, Software Engineer, Portfolio, Web Developer" />
+  <meta name="author" content="Sarthak Patel" />
+  <title>Sarthak Patel | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Sarthak<span>Patel</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume" class="resume-btn">Resume</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content reveal">
+      <p class="hero-greeting">👋 Hello, World!</p>
+      <h1>Hi, I'm <span class="gradient-text">Sarthak Patel</span></h1>
+      <h2>Information Technology Student | Aspiring Software Engineer</h2>
+      <p class="hero-desc">Passionate about Software Development, Databases, Web Development, and Problem Solving. Continuously learning and building projects to improve technical skills.</p>
+      <div class="typing-wrapper">
+        <span>I'm a </span><span class="typed-text" id="typedText"></span><span class="cursor">|</span>
+      </div>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <i class="fas fa-code"></i>
+        </div>
+      </div>
+      <div class="floating-badge badge-1"><i class="fas fa-database"></i> SQL</div>
+      <div class="floating-badge badge-2"><i class="fab fa-js"></i> JS</div>
+      <div class="floating-badge badge-3"><i class="fas fa-code"></i> C++</div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="about">
+    <div class="container">
+      <h2 class="section-title reveal">About <span class="gradient-text">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-card glass reveal">
+          <div class="about-icon"><i class="fas fa-user-graduate"></i></div>
+          <h3>Who I Am</h3>
+          <p>I am an Information Technology student with knowledge of C, C++, SQL, MongoDB, MySQL, HTML, CSS, JavaScript, Data Structures, DBMS, OOP, Git, and GitHub.</p>
+          <p>I enjoy developing software solutions and improving my technical knowledge through practical projects.</p>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-card glass">
+            <span class="stat-num">10+</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+          <div class="stat-card glass">
+            <span class="stat-num">1</span>
+            <span class="stat-label">Project Built</span>
+          </div>
+          <div class="stat-card glass">
+            <span class="stat-num">2027</span>
+            <span class="stat-label">Graduation Year</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal">My <span class="gradient-text">Skills</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-category glass reveal">
+          <h3><i class="fas fa-code"></i> Programming</h3>
+          <div class="skill-tags">
+            <span class="tag">C</span>
+            <span class="tag">C++</span>
+            <span class="tag">SQL</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass reveal">
+          <h3><i class="fas fa-database"></i> Database</h3>
+          <div class="skill-tags">
+            <span class="tag">MongoDB</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass reveal">
+          <h3><i class="fas fa-globe"></i> Web</h3>
+          <div class="skill-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass reveal">
+          <h3><i class="fas fa-brain"></i> Concepts</h3>
+          <div class="skill-tags">
+            <span class="tag">Data Structures</span>
+            <span class="tag">DBMS</span>
+            <span class="tag">OOP</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass reveal">
+          <h3><i class="fas fa-tools"></i> Tools</h3>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Excel</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <h2 class="section-title reveal">Featured <span class="gradient-text">Project</span></h2>
+      <div class="project-card glass reveal">
+        <div class="project-image">
+          <div class="project-placeholder">
+            <i class="fas fa-utensils"></i>
+            <span>Food Delivery Website</span>
+          </div>
+          <div class="project-overlay">
+            <span class="project-badge">Featured</span>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>🍔 Food Delivery Website</h3>
+          <p>Developed a responsive food ordering website with a clean user interface and database integration.</p>
+          <ul class="project-features">
+            <li><i class="fas fa-check-circle"></i> Food Menu Browsing</li>
+            <li><i class="fas fa-check-circle"></i> Order Interface</li>
+            <li><i class="fas fa-check-circle"></i> Responsive Design</li>
+            <li><i class="fas fa-check-circle"></i> Database Connectivity</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+            <span class="tech-tag">SQL</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/sarthak1706/food-delivery" target="_blank" class="btn btn-outline btn-sm"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://sarthak1706.github.io/food-delivery" target="_blank" class="btn btn-outline btn-sm"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education section" id="education">
+    <div class="container">
+      <h2 class="section-title reveal">My <span class="gradient-text">Education</span></h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass">
+            <div class="edu-header">
+              <i class="fas fa-graduation-cap edu-icon"></i>
+              <div>
+                <h3>Bachelor of Engineering</h3>
+                <h4>Information Technology</h4>
+              </div>
+            </div>
+            <p class="edu-year"><i class="fas fa-calendar"></i> Expected Graduation: 2027</p>
+            <p class="edu-desc">Studying core Information Technology subjects including Data Structures, DBMS, OOP, Web Development, and more.</p>
+            <div class="edu-tags">
+              <span class="tag">C / C++</span>
+              <span class="tag">Databases</span>
+              <span class="tag">Web Dev</span>
+              <span class="tag">DSA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section class="certificates section" id="certificates">
+    <div class="container">
+      <h2 class="section-title reveal">My <span class="gradient-text">Certificates</span></h2>
+
+      <!-- Stats Bar -->
+      <div class="cert-stats reveal">
+        <div class="cert-stat glass">
+          <span class="cert-stat-num">3+</span>
+          <span class="cert-stat-label">Certificates Earned</span>
+        </div>
+        <div class="cert-stat glass">
+          <span class="cert-stat-num">1+</span>
+          <span class="cert-stat-label">Projects Completed</span>
+        </div>
+        <div class="cert-stat glass">
+          <span class="cert-stat-num">10+</span>
+          <span class="cert-stat-label">Skills Learned</span>
+        </div>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="cert-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="programming">Programming</button>
+        <button class="filter-btn" data-filter="database">Database</button>
+        <button class="filter-btn" data-filter="data-analytics">Data Analytics</button>
+      </div>
+
+      <!-- Certificate Cards -->
+      <div class="cert-grid">
+
+        <div class="cert-card glass reveal" data-category="programming">
+          <div class="cert-card-top">
+            <div class="cert-icon-wrap">
+              <i class="fas fa-code"></i>
+            </div>
+            <span class="cert-category-badge">Programming</span>
+          </div>
+          <div class="cert-card-body">
+            <h3>Basic C &amp; C++ Languages</h3>
+            <p class="cert-org"><i class="fas fa-building"></i> Isha Digital Education</p>
+            <p class="cert-duration"><i class="fas fa-calendar-alt"></i> Apr 2023 – May 2023</p>
+            <div class="cert-grade"><i class="fas fa-star"></i> Grade: <span>A</span></div>
+            <p class="cert-desc">Completed foundational training in C and C++ programming including variables, loops, functions, problem-solving, and programming concepts.</p>
+          </div>
+          <div class="cert-card-footer">
+            <button class="btn btn-primary btn-sm view-cert-btn"
+              data-title="Basic C &amp; C++ Languages"
+              data-org="Isha Digital Education"
+              data-duration="Apr 2023 – May 2023"
+              data-grade="A"
+              data-category="Programming"
+              data-desc="Completed foundational training in C and C++ programming including variables, loops, functions, problem-solving, and programming concepts."
+              data-file="file:///C:/Users/patel/OneDrive/Documents/Certificate/basic%20c%20&%20c++%20language%20.pdf">
+              <i class="fas fa-eye"></i> View Certificate
+            </button>
+            <span class="cert-year">2023</span>
+          </div>
+        </div>
+
+        <div class="cert-card glass reveal" data-category="database">
+          <div class="cert-card-top">
+            <div class="cert-icon-wrap cert-icon-db">
+              <i class="fas fa-database"></i>
+            </div>
+            <span class="cert-category-badge badge-db">Database</span>
+          </div>
+          <div class="cert-card-body">
+            <h3>SQL Basic Certificate</h3>
+            <p class="cert-org"><i class="fas fa-building"></i> HackerRank</p>
+            <p class="cert-duration"><i class="fas fa-calendar-alt"></i> 2026</p>
+            <div class="cert-grade"><i class="fas fa-check-circle"></i> Completed</div>
+            <p class="cert-desc">Learned SQL fundamentals including database creation, queries, CRUD operations, filtering, joins, and data management.</p>
+          </div>
+          <div class="cert-card-footer">
+            <button class="btn btn-primary btn-sm view-cert-btn"
+              data-title="SQL Basic Certificate"
+              data-org="HackerRank"
+              data-duration="2024"
+              data-grade="Completed"
+              data-category="Database"
+              data-desc="Learned SQL fundamentals including database creation, queries, CRUD operations, filtering, joins, and data management."
+              data-file="file:///C:/Users/patel/OneDrive/Documents/Certificate/sql_basic%20certificate.pdf">
+              <i class="fas fa-eye"></i> View Certificate
+            </button>
+            <span class="cert-year">2024</span>
+          </div>
+        </div>
+
+        <div class="cert-card glass reveal" data-category="data-analytics">
+          <div class="cert-card-top">
+            <div class="cert-icon-wrap cert-icon-analytics">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <span class="cert-category-badge badge-analytics">Data Analytics</span>
+          </div>
+          <div class="cert-card-body">
+            <h3>Excel Intermediate Level</h3>
+            <p class="cert-org"><i class="fas fa-building"></i> Great Learning</p>
+            <p class="cert-duration"><i class="fas fa-calendar-alt"></i> 2026</p>
+            <div class="cert-grade"><i class="fas fa-check-circle"></i> Completed</div>
+            <p class="cert-desc">Completed intermediate Excel training covering Pivot Tables, Charts, Functions, Data Analysis, and Data Visualization.</p>
+          </div>
+          <div class="cert-card-footer">
+            <button class="btn btn-primary btn-sm view-cert-btn"
+              data-title="Excel Intermediate Level"
+              data-org="Great Learning"
+              data-duration="2024"
+              data-grade="Completed"
+              data-category="Data Analytics"
+              data-desc="Completed intermediate Excel training covering Pivot Tables, Charts, Functions, Data Analysis, and Data Visualization."
+              data-file="file:///C:/Users/patel/OneDrive/Documents/Certificate/Excel%20Intermediate%20level.pdf">
+              <i class="fas fa-eye"></i> View Certificate
+            </button>
+            <span class="cert-year">2024</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificate Modal -->
+  <div class="cert-modal" id="certModal">
+    <div class="cert-modal-overlay" id="certModalOverlay"></div>
+    <div class="cert-modal-box glass">
+      <button class="cert-modal-close" id="certModalClose"><i class="fas fa-times"></i></button>
+      <div class="cert-modal-icon" id="modalIcon"></div>
+      <span class="cert-modal-category" id="modalCategory"></span>
+      <h3 id="modalTitle"></h3>
+      <p class="cert-modal-org" id="modalOrg"></p>
+      <div class="cert-modal-meta">
+        <span id="modalDuration"><i class="fas fa-calendar-alt"></i> </span>
+        <span id="modalGrade"><i class="fas fa-star"></i> Grade: </span>
+      </div>
+      <p class="cert-modal-desc" id="modalDesc"></p>
+      <div class="cert-modal-preview">
+        <iframe id="modalIframe" src="" title="Certificate Preview"></iframe>
+      </div>
+      <a class="btn btn-outline btn-sm cert-open-btn" id="modalOpenBtn" href="#" target="_blank">
+        <i class="fas fa-external-link-alt"></i> Open in New Tab
+      </a>
+    </div>
+  </div>
+
+  <!-- Resume Section -->
+  <section class="resume-section section" id="resume">
+    <div class="container">
+      <div class="resume-card glass reveal">
+        <div class="resume-icon"><i class="fas fa-file-alt"></i></div>
+        <h2>My <span class="gradient-text">Resume</span></h2>
+        <p>Download my resume to learn more about my skills, education, and projects.</p>
+        <a href="file:///C:/Users/patel/Downloads/sarthak%20patel_resume.pdf" target="_blank" class="btn btn-primary resume-download-btn">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <h2 class="section-title reveal">Get In <span class="gradient-text">Touch</span></h2>
+      <div class="contact-grid">
+
+        <div class="contact-info reveal">
+          <h3>Let's Connect!</h3>
+          <p>I'm open to internship opportunities, collaborations, and learning. Feel free to reach out!</p>
+          <div class="contact-links">
+            <a href="mailto:patelsarthak0617@gmail.com" class="contact-item glass">
+              <i class="fas fa-envelope"></i>
+              <span>patelsarthak0617@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/sarthak-patel-a50b0a394/" target="_blank" class="contact-item glass">
+              <i class="fab fa-linkedin"></i>
+              <span>linkedin.com/in/sarthak-patel-a50b0a394</span>
+            </a>
+            <a href="https://github.com/sarthak1706/" target="_blank" class="contact-item glass">
+              <i class="fab fa-github"></i>
+              <span>github.com/sarthak1706</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form glass reveal" id="contactForm">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Subject" />
+          </div>
+          <div class="form-group">
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-full">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-success" id="formSuccess">✅ Message sent successfully!</p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 <span class="gradient-text">Sarthak Patel</span>. All Rights Reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:patelsarthak0617@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
